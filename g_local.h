@@ -239,6 +239,8 @@ typedef struct gitem_s
 	int			tag;
 
 	char		*precaches;		// string of all models, sounds, and images this item will use
+	int			wpn_sabo;		//+ DB 9/13: Flag value to determine whether this item (if a weapon)
+								//+ has been sabotaged.
 } gitem_t;
 
 
