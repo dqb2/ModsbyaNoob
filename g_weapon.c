@@ -433,7 +433,7 @@ static void Grenade_Explode (edict_t *ent)
 	G_FreeEdict (ent);
 }
 
-// + dqb2 9/14 the cluster fuction 
+// + dqb2 9/14 the cluster fuction ** currently mod crashes quake once nades are tossed
 static void Cluster_Explode(edict_t*ent)
 {
 	vec3_t		origin;
