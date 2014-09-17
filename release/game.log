@@ -1,4 +1,4 @@
-﻿Build started 9/16/2014 9:55:37 AM.
+﻿Build started 9/16/2014 11:27:17 PM.
      1>Project "C:\Users\dabatm4n\Desktop\git\src\game.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating ".\release\game.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -67,4 +67,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.96
+Time Elapsed 00:00:02.30

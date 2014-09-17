@@ -439,10 +439,10 @@ static void Bouncing_Betty(edict_t*ent)
 	vec3_t		origin;
 
 	// these vect_t  create the additional grenades that form once we call the fire_grenade2 funcation 
-	vec3_t grenade1;
+	  vec3_t grenade1;
 	//vec3_t grenade2; *vec3_t describes the angle of the camera on the object
 	//vec3_t grenade3; adding additonal grenades will crash the mod
-	//vec3_t grenade4;
+	
 
 	if (ent->owner->client)
 		PlayerNoise(ent->owner, ent->s.origin, PNOISE_IMPACT);
@@ -471,14 +471,13 @@ static void Bouncing_Betty(edict_t*ent)
 	VectorSet(grenade1,20,20,40);
 	//VectorSet(grenade2,20,20,40);
 	//VectorSet(grenade3,20,20,40); 
-	//VectorSet(grenade4,20,20,40);
+	
 
-	// calls the 4 grenades we created 
+	// calls the 4 grenades created 
 	fire_grenade2(ent,origin,grenade1,120,10,1.0,120,true);
 	//fire_grenade2(ent,origin,grenade2,120,10,1.0,120,true);
 	//fire_grenade2(ent,origin,grenade3,120,10,1.0,120,true);
-	//fire_grenade2(ent,origin,grenade4,120,10,1.0,120,true);
-
+	
 	G_FreeEdict(ent);
 }
 
